@@ -1,0 +1,18 @@
+{
+  "hog": {
+    "orientations": 9,
+    "pixels_per_cell": [8, 8],
+    "cells_per_block": [3, 3],
+    "block_norm": "L2-Hys",
+    "visualize": true,
+    "transform_sqrt": false,
+    "feature_vector": true,
+    "multichannel": null,
+    "channel_axis": null
+  },
+  "lbp": {
+    "P": 24,
+    "R": 3,
+    "method": "default"
+  }
+}
