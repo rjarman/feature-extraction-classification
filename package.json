@@ -1,0 +1,9 @@
+{
+  "standard-version": {
+    "skip": {
+      "bump": true,
+      "commit": true,
+      "tag": true
+    }
+  }
+}
