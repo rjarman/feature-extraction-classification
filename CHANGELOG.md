@@ -2,17 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [](https://github.com/rjarman/feature-extraction-classification/compare/v1.1.1...v) (2021-04-18)
+## [](https://github.com/rjarman/feature-extraction-classification/compare/v1.2.0...v) (2021-04-19)
 
 
 ### Features
 
-* add hog, lbp test with compare_img func ([06ac7e3](https://github.com/rjarman/feature-extraction-classification/commit/06ac7e3aa60c3b272aa37cba802718910be9efe7))
+* add flexibility to compare_img func to take more then 2 imgs ([fc62c4d](https://github.com/rjarman/feature-extraction-classification/commit/fc62c4d5c884bdce3e24624141fc0390d77aa746))
+* add flexibility to show_hist func ([55d4f13](https://github.com/rjarman/feature-extraction-classification/commit/55d4f1315d40b7a5e5ef9be67df98c1edcc8e789))
 
 
 ### Bug Fixes
 
-* compare_img fun parameter ([7d833ba](https://github.com/rjarman/feature-extraction-classification/commit/7d833ba0c23c2689e80d1c8241991f59b536e839))
+* show_hist func's separate graph ([712bd5f](https://github.com/rjarman/feature-extraction-classification/commit/712bd5f3eaf7c670f1acd9d8420e3a89d2471662))
 
 ## 2.0.0 (2021-04-17)
 
