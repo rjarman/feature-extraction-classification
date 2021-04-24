@@ -14,5 +14,11 @@
     "P": 24,
     "R": 3,
     "method": "default"
+  },
+  "svm": {
+    "C": [1, 0.1, 10, 100],
+    "kernel": ["rbf", "poly", "linear"],
+    "degree": [3],
+    "gamma": ["scale", "auto"]
   }
 }
