@@ -23,6 +23,6 @@
   },
   "gridSearchCV": { "n_jobs": -1, "cv": 5, "refit": true, "verbose": 3 },
   "datasets": {
-    "img_shape": [480, 720]
+    "img_shape": [[256, 256, 3], [256, 512, 3]]
   }
 }
