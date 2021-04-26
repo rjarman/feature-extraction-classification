@@ -25,5 +25,15 @@
       [256, 256, 3],
       [256, 512, 3]
     ]
+  },
+  "knn": {
+    "n_neighbors": [5, 15, 25, 35, 45],
+    "weights": ["uniform", "distance"],
+    "algorithm": ["auto", "ball_tree", "kd_tree", "brute"],
+    "leaf_size": [30, 60, 90, 120, 150],
+    "p": [2, 1],
+    "metric": ["minkowski"],
+    "metric_params": [null],
+    "n_jobs": [-1]
   }
 }
