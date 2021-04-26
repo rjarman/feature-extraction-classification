@@ -6,9 +6,7 @@
     "block_norm": "L2-Hys",
     "visualize": true,
     "transform_sqrt": false,
-    "feature_vector": true,
-    "multichannel": null,
-    "channel_axis": null
+    "feature_vector": true
   },
   "lbp": {
     "P": 24,
