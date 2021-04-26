@@ -2,37 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [](https://github.com/rjarman/feature-extraction-classification/compare/v1.4.1...v) (2021-04-24)
+## [](https://github.com/rjarman/feature-extraction-classification/compare/v1.5.0...v) (2021-04-26)
 
+
+### ⚠ BREAKING CHANGES
+
+* final release with handling multiple datasets
 
 ### Features
 
-* add confusion_matrix as Evaluation Techniques ([294095e](https://github.com/rjarman/feature-extraction-classification/commit/294095edf40f880f55573f01f7f67e008705bc66))
-* add descriptor_info decorator ([4a04da7](https://github.com/rjarman/feature-extraction-classification/commit/4a04da727b18e393e5fb2952fb02c148b3165167))
-* add gridSearchCv decorator ([b4e4e0d](https://github.com/rjarman/feature-extraction-classification/commit/b4e4e0df3017452fefc616e2ee731a4dd36dd87a))
-* add GridSearchCV model selection algorithm ([8c6484c](https://github.com/rjarman/feature-extraction-classification/commit/8c6484c1529b1cca406d091289bf206dba8b678b))
-* add svm classification algorithm ([6a67b30](https://github.com/rjarman/feature-extraction-classification/commit/6a67b3035e93040e28f677c0b335ed94c6eadb10))
-* add train test info decorator ([9c69992](https://github.com/rjarman/feature-extraction-classification/commit/9c699925ee490176cdef1dc879cc96c9dcbe1ae8))
-* add train_test func ([dd950f5](https://github.com/rjarman/feature-extraction-classification/commit/dd950f5d7b2d13239a6b33e0476b17fcd249d69d))
-* add train_test_split decorator ([af444d8](https://github.com/rjarman/feature-extraction-classification/commit/af444d88e9adca65644416f3cbeec3c7763c3d40))
-* restructure decorator  ([788fc79](https://github.com/rjarman/feature-extraction-classification/commit/788fc792af621b63d1416b774f69d1af1324a789))
-* update pipeline with new features ([4e0982a](https://github.com/rjarman/feature-extraction-classification/commit/4e0982a502d5df35284c3782c726a0b67fd102d9))
-* update pipeline with new features ([3d1308c](https://github.com/rjarman/feature-extraction-classification/commit/3d1308c5f8779d5a190ea043a4c76a283ec97496))
-* update pipeline with new features ([22301ae](https://github.com/rjarman/feature-extraction-classification/commit/22301ae2b6fb40171b3ec1978512edc6420fea6b))
+* add compatibility for preprocessing parameter ([0f69e41](https://github.com/rjarman/feature-extraction-classification/commit/0f69e419d5fda55ba7a82299686d1aa9f70d3d30))
+* add execution_info decorator ([aef980f](https://github.com/rjarman/feature-extraction-classification/commit/aef980ff1cba7e31402b665fa7a3de6e95be7df2))
+* add knn classification algo and update pipeline with new features ([ea75433](https://github.com/rjarman/feature-extraction-classification/commit/ea75433be75355c82ac6bc24cbbb057e79629dcb))
+* add read_dataset_mul for multiple dataset ([41d59d1](https://github.com/rjarman/feature-extraction-classification/commit/41d59d15cd27b51ccd4f258b05297dceb93dfa40))
+* add threshold_otsu algo for binary image  ([665daa6](https://github.com/rjarman/feature-extraction-classification/commit/665daa688431589c8f0897b74e4c9f4d565e7545))
+* flexible path for different dataset folder structure ([fced9c8](https://github.com/rjarman/feature-extraction-classification/commit/fced9c8a893d58b89aad4b773234687fcf8835fc))
+* give flexibility to handle multiple dataset ([659c451](https://github.com/rjarman/feature-extraction-classification/commit/659c451a6dc7ae731324232ab4f1a6d7e359dc54))
+* optional histogram ([b35e184](https://github.com/rjarman/feature-extraction-classification/commit/b35e184de21d3e82ce7f959b592f008054113434))
+* python version update to 3.8.8 for comparability reason ([6db5c46](https://github.com/rjarman/feature-extraction-classification/commit/6db5c46e9b13ccd262a1bac7ad00d5f25ac45961))
+* update pipeline with new features ([0236b8f](https://github.com/rjarman/feature-extraction-classification/commit/0236b8f6801962bbe9d9ca2199cca227adf89223))
+* update pipeline with new features and dataset ([4e7af4c](https://github.com/rjarman/feature-extraction-classification/commit/4e7af4c6b6dc4117cff448b90e3cb381e29e5b11))
 
 
 ### Bug Fixes
 
-* dimensional error for lbp_f ([a1ca4a6](https://github.com/rjarman/feature-extraction-classification/commit/a1ca4a6cf972d1bc64078e5796e779bfee25ac0d))
-* get_time parent func.__name__ not recognize fix ([84e51d1](https://github.com/rjarman/feature-extraction-classification/commit/84e51d144df454f93fdf8d8c5e47a21f0b69148d))
-* output text structure ([216bc5c](https://github.com/rjarman/feature-extraction-classification/commit/216bc5c85e59c1e55c6c4cc7c6c192c323e7823e))
-* parameter name changes compatibility to descriptor_info ([b02fd3f](https://github.com/rjarman/feature-extraction-classification/commit/b02fd3f7a88ab7ce5d1ab84a8628cf931177c85a))
-* parameter name convention and **kwargs not passing ([e5a8c2d](https://github.com/rjarman/feature-extraction-classification/commit/e5a8c2d8c2fe1af2fd5c27b0bb0fb9fb25e5f7b9))
-* remove 3dad142de752d1dc5ef2e9cc2b2cd0e2e47d6b46 commit ([eef4407](https://github.com/rjarman/feature-extraction-classification/commit/eef44079e00cf555cffc6e6655b41aaeb96c5511))
-* remove unnecessary decorator codes ([5f02cc6](https://github.com/rjarman/feature-extraction-classification/commit/5f02cc6cedd629a063d8cb6b119b88c3a8287898))
-* remove unnecessary lines of code ([5c67cc4](https://github.com/rjarman/feature-extraction-classification/commit/5c67cc4215ddd3bd20c5256978bdd1f397f85da3))
-* ValueError: setting an array element with a sequence ([3c1c7a3](https://github.com/rjarman/feature-extraction-classification/commit/3c1c7a37a6f533f241481039c6613481a4398305))
-* y_test value error ([91ddf6e](https://github.com/rjarman/feature-extraction-classification/commit/91ddf6e16d3341919d34d539e0f130ed9a7cce47))
+* ds_path update for single dataset ([b3f1752](https://github.com/rjarman/feature-extraction-classification/commit/b3f17528c1ed82e58a379b3a9cd4d45f6c4fd8aa))
+* output stream indentation update ([a5148de](https://github.com/rjarman/feature-extraction-classification/commit/a5148de6a129f65d224a521ef6af8f6410611f50))
+* plot cmap missing parameter ([a624ea1](https://github.com/rjarman/feature-extraction-classification/commit/a624ea159789119dc92fedd347c2e1de5f648035))
+
+
+* release note of v2.0.0 ([1be2b87](https://github.com/rjarman/feature-extraction-classification/commit/1be2b8751efd47fc9fce6890db9da35a8ed98fed))
 
 ## 2.0.0 (2021-04-17)
 
